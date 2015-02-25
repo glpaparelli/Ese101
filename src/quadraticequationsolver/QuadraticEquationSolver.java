@@ -3,12 +3,15 @@ package quadraticequationsolver;
 import complexnumber.*;
 
 public class QuadraticEquationSolver {
-    public float a;
-    public float b;
-    public float c;
-    public float delta;
-    
-    public void computeDeterminant() {
+    public  float a;                                                            // dichiaro variabili pubbliche 
+    public  float b;                                                            //          //
+    public  float c;                                                            //          //
+    private float delta;                                                        // dichiare una variabile privata
+                                                                                // non sarà visibile dalle altre
+                                                                                // classi o oggetti, in quanto non di 
+                                                                                // rilevanza per l'utente finale
+
+    private void computeDeterminant() {                                         //   metodo privato  
         this.delta = (float)Math.pow(this.b, 2) - 4 * this.a * this.c;
     }
     

@@ -61,5 +61,4 @@ public class Ese101 {
         System.out.println("x1: " + x1.formatComplexNumber());
         System.out.println("x2: " + x2.formatComplexNumber());
     }
-    
 }
